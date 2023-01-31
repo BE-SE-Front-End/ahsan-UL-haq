@@ -1,0 +1,61 @@
+*
+{
+    font-family: 'Arial Rounded MT'
+}
+
+header
+{
+    text-align: center;
+    color: gray;
+}
+
+.Top
+{
+    width: 100%;
+}
+
+.TopRight
+{
+    width: 50%;
+    text-align: left;
+    font-size: small;
+    font-weight: bold;
+    padding: 20px;
+}
+
+.TopLeft
+{
+    text-align: right;
+    width: 50%;
+}
+
+.Bob
+{
+    border: 4px solid;
+    border-radius: 2px;
+    padding: 2px;
+    filter: grayscale(50%);
+}
+
+img:hover
+{
+    opacity: 0.5;
+}
+
+.Intro
+{
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;    
+}
+
+.AoE, .WE, .CH, .Ed, .Lang
+{
+    font-weight: lighter;
+    font-size: 12px;
+}
+
+.End
+{
+    text-align: center;
+}
