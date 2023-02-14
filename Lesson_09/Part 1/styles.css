@@ -1,0 +1,116 @@
+.main-wrapper {
+    min-width: 100vh;
+    max-width: 1400px;
+    max-height: 1200px;
+    width: 1000px;
+    height: 1000px;
+    display: flex;
+    background-color: #CC8B8C;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.main-box {
+    width: 470px;
+    height: 150px;
+    margin: 20px;
+    padding: 10px;
+}
+
+.flexbox-topleft {
+    background-color: #FFBF46;
+    display: flex;
+    align-items: flex-end;
+}
+
+.flexbox-topright {
+    background-color: #8ACB88;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flexbox-midleft {
+    background-color: #648381;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.flexbox-midright {
+    background-color: #575761;
+    display: flex;
+    justify-content: space-between;
+}
+
+.flexbox-bottomleft {
+    background-color: #E4FDE1;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: stretch;
+}
+
+.flexbox-bottomright {
+    background-color: #6C969D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flexbox-topleft>div {
+    width: 75px;
+    height: 75px;
+    margin: 10px;
+    background-color: #575761;
+}
+
+.flexbox-topright>div {
+    width: 78px;
+    height: 120px;
+    margin: 10px;
+    background-color: #648381;
+}
+
+.flexbox-midleft>div {
+    width: 75px;
+    height: 75px;
+    margin: 10px;
+    background-color: #E4FDE1;
+}
+
+.flexbox-midright>div {
+    width: 75px;
+    height: 75px;
+    margin: 10px;
+    background-color: #8ACB88;
+}
+
+.midright-rightbox {
+    align-self: flex-end;
+}
+
+.flexbox-bottomleft>div {
+    width: 78px;
+    margin: 10px;
+    padding: 10px;
+    background-color: #FFBF46;
+    text-align: center;
+}
+
+.bottomleft-midbox {
+    width: 78px;
+    height: 64px;
+    align-self: center;
+}
+
+.flexbox-bottomright>div {
+    width: 78px;
+    height: 78px;
+    margin: 10px;
+    background-color: #FAF2A1;
+}
+
+.bottomright-midbox {
+    flex-grow: 0.5;
+}
